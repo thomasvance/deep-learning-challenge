@@ -4,16 +4,16 @@ The nonprofit foundation Alphabet Soup seeks to develop a predictive tool to ide
 
 Results
 Data Preprocessing
-     (*)  Target Variable:
-         IS_SUCCESSFUL – A binary variable indicating if funding was effectively utilized.
+     (*) Target Variable:
+          IS_SUCCESSFUL – A binary variable indicating if funding was effectively utilized.
 
-     (*)  Features:
-       Depending on the model, features included:
+(*) Features:</br>
+Depending on the model, features included:</br>
 
-        (*)  Application metadata (e.g., APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT).
-        (*)  Specific columns like EIN and NAME (Model 3 included these).
-        (*)  One-hot encoded categorical variables.
-     (*) Variables Removed:
+(*)  Application metadata (e.g., APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT).
+(*)  Specific columns like EIN and NAME (Model 3 included these).
+(*)  One-hot encoded categorical variables.
+(*) Variables Removed:
 
         (*) In Model 1, EIN and NAME were removed as they are identifiers without predictive value.
         (*) In Model 2, STATUS and SPECIAL_CONSIDERATIONS were also dropped in addition to EIN and NAME, making four columns removed in total.
