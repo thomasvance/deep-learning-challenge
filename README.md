@@ -5,7 +5,7 @@ The nonprofit foundation Alphabet Soup seeks to develop a predictive tool to ide
 Results
 Data Preprocessing
      * Target Variable:
-     IS_SUCCESSFUL – A binary variable indicating if funding was effectively utilized.
+         IS_SUCCESSFUL – A binary variable indicating if funding was effectively utilized.
 
      * Features:
        Depending on the model, features included:
